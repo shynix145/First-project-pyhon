@@ -16,7 +16,7 @@ while life > 0 and mot_mystere != mot_public:
     if mot_public == mot_mystere:
         print("Bravo ! Le mot est", mot_mystere)
     elif life == 0:
-        print("Perdu 😢")
+        print("Perdu ")
     else:
         print("Vous avez", life, "vies")
         print("Le mot est :", mot_public)
